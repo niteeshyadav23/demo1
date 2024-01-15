@@ -1,4 +1,4 @@
-/* 
+:root{
     --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -20,4 +20,8 @@
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
-*/
+}
+
+body{
+    background-color: var(--pink);
+}
