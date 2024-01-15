@@ -1,8 +1,40 @@
+/* 
+    
+ */
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
-div{
-    background-color: red;
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    background-color: #343a40;
+}
+span{
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+    list-style: none;
+    transition: 0.2s;
+}
+li{
+    padding: 20px;
+    color: white;
+    font-size: 16px;
+    list-style: none;
+    transition: 0.2s;
+}
+
+
+li:hover{
+    color: #eb3e32;
+    cursor: pointer;
+    
 }
